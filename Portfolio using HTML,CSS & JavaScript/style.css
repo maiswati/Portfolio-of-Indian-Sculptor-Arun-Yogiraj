@@ -1,0 +1,696 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: #f26c4f;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.many{
+    display: flex;
+}
+.many1{
+    margin-left:10px;
+}
+a{
+    text-decoration: none;
+}
+#special{
+    margin-right: 120px;
+}
+.mainContent{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.home{
+    width: 100%;
+    height: 729.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#doe{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+.one{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.box{
+    height: 70px;
+    width: 350px;
+    border: 5px solid white;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 65px;
+}
+.button{
+    height: 65px;
+    width: 65px;
+    background-color: #f26c4f;
+    font-size: 35px;
+    text-align: center;
+    line-height: 65px;
+}
+#scrollDown{
+    margin-top: 150px;
+    cursor: pointer;
+}
+.same{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.picture{
+    height: 450px;
+    width: 375px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+.connect{
+    background-color: #f26c4f;
+    color: white;
+    border: none;
+    height:35px;
+    width: 100px;
+    position: relative;
+    margin-right:85px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.services{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.me{
+    height: 275px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 45px;
+    border: 0.2px solid white;
+    border-radius: 15px;
+    transition: 1s ease-in ;
+}
+.evi{
+    height: 120px;
+    width: 100px;
+    margin-left: 155px;
+    transition: 1s ease-in ;
+}
+.he{
+    color: white;
+    margin-top: 5px;
+}
+.one-line{
+    color: white;
+    margin-top: 5px;
+}
+.btn{
+    background-color: #f26c4f;
+    color: white;
+    border: none;
+    height:35px;
+    width: 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 175px;
+    margin-top: 10px;
+    transition: 1s ease-in 0.2s;
+}
+.myService{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.btn:hover{
+    width:200px;    
+    background-color: firebrick;
+}
+.me:hover{
+    height:400px;
+    width:400px;
+}
+.evi:hover{
+    height: 200px;
+    width: 200px;
+}
+.hi{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border: 2.7px solid white;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.para{
+    color: grey;
+    margin-top: 40px;
+}
+.des{
+    color:white;
+}
+.yogi{
+    color: white;
+}
+.btn2{
+    width: 148px;
+    height: 45px;
+    background-color: #fc6947;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.1s linear ;
+}
+.btn3{
+    width:148px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    font-size:15px ;
+}
+.aboutMe{
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+.iam{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom:80px;
+}
+.des{
+    color: #f26c4f;
+    font-weight: 600;
+}
+.yogi{
+    font-weight: 500;
+}
+.picture2{
+    width: 410px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.allow{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:space-evenly;
+}
+.name{
+    margin-top: 40px;
+}
+.line{
+    color: gray;
+    margin-top: 40px;
+}
+.btn2:hover{
+    background-color: #d4300b;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+}
+
+.picture4{
+    width: 1200px;
+    height: 240px;
+    margin-left: 150px;
+    margin-top: 165px;
+}
+.btn4{
+    height: 45px;
+    width: 90px;
+    color: white;
+    background-color: #d4300b;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+   left: -650px;
+   border: 1px solid white;
+}
+.gallery{
+    width: 100%;
+    height: 2500px;
+    background-color: black;
+}
+.ga{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+.picture5{
+    width: 90%;
+    height: 250px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+
+.idol{
+    text-align: center;
+    font-size: 35px;
+    color: gold;
+    border: 2px solid #D8A077;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+}
+.ganesha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.devi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.family{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:150px ;
+}
+.god{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.claywork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.photo{
+    width: 220px;
+    height: 278px;
+}
+.cla{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pa{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.skills{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+}
+.skill1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .skill1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fc6947;
+    transform-origin: bottom;
+    transform: scaleY(0.95); /* Adjust this value for different percentages */
+  }
+  .skill2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .skill2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fc6947;
+    transform-origin: bottom;
+    transform: scaleY(0.8); /* Adjust this value for different percentages */
+  }
+  .skill3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .skill3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fc6947;
+    transform-origin: bottom;
+    transform: scaleY(1); /* Adjust this value for different percentages */
+  }
+  .h{
+    color: white;
+  }
+  .circle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .skill4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .skill4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fc6947;
+    transform-origin: bottom;
+    transform: scaleY(0.9); /* Adjust this value for different percentages */
+  }
+  .headings{
+    color:violet;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .hu{
+    color: black; /* set the color of the text */
+  font-size: 45px; /* adjust the font size as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 70px;
+  }
+  .hu1{
+    color: black; /* set the color of the text */
+  font-size: 45px; /* adjust the font size as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 55px;
+  }
+  .portfolio{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+  }
+.modiji{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.pic{
+    width: 600px;
+    height: 400px;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.ellipse-div {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 70%; /* or use specific values for a more elliptical shape */
+}
+.fav{
+    color: #fc6947;
+}
+.b{
+    color: white;
+}
+.fav{
+    position: relative;
+    top: -360px;
+}
+.c{
+    margin-left: 980px;
+}
+.high{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom:5px double brown;
+    font-size: 25px;
+    color: gold;
+}
+.testimonials{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+}
+.test{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.dbl{
+    font-size: 90px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #f26c4f;
+    color: white; /* set the color of the text */
+    font-size: 60px; /* adjust the font size as needed */
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 13px;
+    margin-left: 730px;
+    margin-top: 30px;
+}
+.card{
+    text-align: center;
+    margin-top: 100px;
+}
+.para4{
+    color: gray;
+    width: 50%;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+.hu3{
+    color: white;
+    margin-top: 30px;
+}
+.hu6{
+    color: white;
+    margin-top: 30px;
+}
+.pic4{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.contact{
+    width: 100%;
+    height:400px;
+}
+.wall{
+    width: 100%;
+    height: 1000px;
+}
+.hu4{
+    color: #808080;
+}
+.fry{
+    font-size: 45px;
+}
+.fry1{
+    width: 35px;
+    height: 35px;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aaji{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    width: 300px;
+    height: 70px;
+    border:5px solid white ;
+    margin-left: 325px;
+    margin-bottom: 80px;
+    margin-top: 800px;
+}
+.cook{
+    color: white;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    text-align: center;
+}
+.next{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    align-items: space-between;
+}
+.import{
+    position:absolute;
+  top:7750px;
+  transform: translateY(-50%);
+  margin-left: 250px;
+  color: white;
+}
+.next2{
+    margin-left: 400px;
+}
+.next1{
+    margin-left:65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.next2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#name{
+    background-color: blue;
+    background-color: rgba(174, 174, 248, 0.403);
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    margin-top:10px;
+    border-radius: 4px;
+}
+#email{
+    background-color: blue;
+    background-color: rgba(174, 174, 248, 0.403);
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 4px; 
+}
+#subject{
+    background-color: blue;
+    background-color: rgba(174, 174, 248, 0.403);
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    width: 400px;
+    height: 35px;
+    margin-top: 10px; 
+    border-radius: 4px;
+}
+#message{
+    background-color: blue;
+    background-color: rgba(174, 174, 248, 0.403);
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    width: 400px;
+    height: 115px;
+    margin-top: 10px; 
+    border-radius: 4px;
+}
+.send{
+    width: 185px;
+    height: 50px;
+    background-color: #fc6947;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 220px;
+}
